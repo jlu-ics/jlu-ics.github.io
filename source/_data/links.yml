@@ -1,0 +1,18 @@
+## 友情链接
+# name:         文字/标题
+# link:         链接路径，无链接为空即可
+#
+- name: 吉林大学
+  link: https://jlu.edu.cn/
+
+- name: 吉林大学计算机科学与技术学院
+  link: https://ccst.jlu.edu.cn/
+
+- name: 吉林大学软件学院
+  link: https://csw.jlu.edu.cn/
+
+- name: 南开大学Mobisys研究组
+  link: http://www.mobisys.cc/
+
+- name: 中科大ADSLAB
+  link: https://adsl.ustc.edu.cn/
