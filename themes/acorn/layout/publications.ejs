@@ -1,0 +1,81 @@
+<div class="container">
+  <%- partial('_partial/page/banner') %>
+  <%# partial('_partial/page/heading') %>
+  <% post = page %>
+  <% index = false %>
+
+<article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <% if (post.excerpt && index){ %>
+  <div class="card rounded">
+    <%- partial('_partial/post/gallery') %>
+    <div class="card-body bg-light">
+			<%- partial('_partial/post/title', {class_name: 'article-title mb-0 line-clamp line-clamp-1'}) %>
+			<%- partial('_partial/post/date', {class_name: 'article-date', date_format: null}) %>
+			<div class="card-text mt-3 line-clamp line-clamp-2"><%- post.excerpt %></div>
+      <hr class="hr">
+      <% if (theme.excerpt_link){ %>
+      <div class="article-more-link">
+        <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+      </div>
+      <% } %>
+    </div>
+  </div>
+  <% } else { %>
+  <% if (is_post()) { %>
+  <div class="article-cover mb-5">
+    <%- partial('_partial/post/gallery') %>
+  </div>
+  <% } %>
+  <div class="article-inner">
+    <% if (post.link || post.title){ %>
+    <header class="article-header">
+      <% if (!is_page()) { %>
+      <%- partial('_partial/post/title', {class_name: 'article-title'}) %>
+      <div class="article-meta">
+        <%- partial('_partial/post/date', {class_name: 'article-date', date_format: null}) %>
+        <%- partial('_partial/post/category') %>
+      </div>
+      <% } %>
+    </header>
+    <% } %>
+    <div class="article-entry" itemprop="articleBody">
+
+      <% for (var i in post.data) { %>
+        <% var sec = post.data[i] %>
+
+        <h2><%= sec.section %></h2>
+        <div class="publications-container">
+
+          <% for (var j in sec.sub) { %>
+            <% pub = sec.sub[j] %>
+
+            <div class="publication">
+              <h6><a href="<%= url_for(pub.link) %>"><%= pub.title %></a><% if (pub.source) { %>&nbsp;<a style="border: none;" href="<%= pub.source %>"><sup>[source]</sup></a><% } %></h6>
+              <p><%- markdown(pub.authors) %></p>
+              <p><%- markdown(pub.published) %></p>
+            </div>
+
+          <% } %>
+
+      </div>
+      <% } %>
+
+      <style>
+        .article-entry .publication {
+          line-height: 1.5rem;
+          margin-bottom: 2rem;
+        }
+      </style>
+
+    </div>
+    <footer class="article-footer">
+      <%- partial('_partial/post/tag') %>
+    </footer>
+  </div>
+  <% } %>
+  <% if (!index){ %>
+    <%- partial('_partial/post/nav') %>
+  <% } %>
+</article>
+
+</div>

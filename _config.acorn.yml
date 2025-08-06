@@ -1,8 +1,8 @@
 # Header
 menu:
   首页: /
-  画廊: /gallery
-  案例: /stories
+  成员: /members
+  学术成果: /publications
   新闻: /archives
   关于: /about
 
@@ -21,7 +21,7 @@ beian:
 # Miscellaneous
 favicon: /uploads/jlu.png
 # webclip: /images/webclip
-brand:   /uploads/logo/name-short.png
+brand:   /uploads/logo/wider.png
 
 # Jumbotron video & Hero image
 ## Jumbotron video
@@ -39,6 +39,6 @@ keen_slider:
 slogan:
   primary: WELCOME TO
   secondary: JLU Intelligent Computing and System Lab
-  archives: JLU ICS Lab
-  pages: JLU ICS Lab
-  posts: JLU ICS Lab
+  archives: ICS Lab
+  pages: ICS Lab
+  posts: ICS Lab

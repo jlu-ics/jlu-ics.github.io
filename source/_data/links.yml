@@ -11,8 +11,8 @@
 - name: 吉林大学软件学院
   link: https://csw.jlu.edu.cn/
 
-- name: 南开大学Mobisys研究组
-  link: http://www.mobisys.cc/
+# - name: 南开大学Mobisys研究组
+#   link: http://www.mobisys.cc/
 
-- name: 中科大ADSLAB
-  link: https://adsl.ustc.edu.cn/
+# - name: 中科大ADSLAB
+#   link: https://adsl.ustc.edu.cn/
