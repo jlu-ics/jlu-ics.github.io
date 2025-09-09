@@ -49,16 +49,20 @@
           <% for (var j in sec.sub) { %>
             <% member = sec.sub[j] %>
 
-            <div class="member">
+            <div class="member" <% if (!member.picture) { %> style="width: 16rem;" <% } %>>
+              <% if (member.picture) { %>
               <div class="member-avatar">
                 <img src="<%= url_for(member.picture) %>" alt="<%= member.name %>">
               </div>
+              <% } %>
               <div class="member-info">
                 <h5>
-                  <a href="<%= url_for(member.link) %>" target="_blank"><%= member.name %></a>
+                  <a <% if (member.link) { %> href="<%= url_for(member.link) %>" <% if (member.link.startsWith('http')) {
+                      %>target="_blank"<%
+                    } %> <% } %>><%= member.name %></a>
                 </h5>
-                <p class="subtitle"><%= member.subtitle %></p>
-                <p class="note"><%= member.note %></p>
+                <p class="subtitle"><%- member.subtitle %></p>
+                <p class="note"><%- member.note %></p>
               </div>
             </div>
 
@@ -72,7 +76,7 @@
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-          justify-content: space-around;
+          justify-content: left;
         }
         .article-entry .member-avatar {
           height: 12rem;
@@ -83,6 +87,7 @@
         .article-entry .member-info {
           overflow: hidden;
           margin: 1rem;
+          flex: min-content;
         }
         .article-entry .member-info h5 {
           margin: 0.2rem;
