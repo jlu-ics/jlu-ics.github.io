@@ -47,6 +47,10 @@ data:
     subtitle: 2025级
     note: 计算机系统结构
     picture: /uploads/members/张程.jpeg
+  - name: 马琳
+    subtitle: 2023级
+    note: 因果发现，因果结构学习
+    picture: /uploads/members/马琳.jpg
   - name: 张嘉乐
     subtitle: 2022级
     note: 量子数据编码与量子机器学习
@@ -59,6 +63,10 @@ data:
     subtitle: 2021级
     note: 
     picture: /uploads/members/王国毓.jpeg
+  - name: 李帅
+    subtitle: 2021级
+    note: 分布式学习
+    picture: /uploads/members/李帅.jpg
 - section: 在读硕士生
   sub:
   - name: 魏永超
@@ -129,10 +137,6 @@ data:
     subtitle: 2023级
     note: IDS
     picture: /uploads/members/马海睿.jpeg
-  - name: 李帅
-    subtitle: 2021级
-    note: 分布式学习
-    picture: /uploads/members/李帅.jpg
 - section: 已毕业学生
   sub:
   - name: 陈硕
@@ -141,6 +145,9 @@ data:
   - name: 郝佳旺
     subtitle: 2022级硕士
     note: 计算机技术<br>单位就业
+  - name: 韩庆奇
+    subtitle: 2022级博士
+    note: 机器学习<br>吉林大学仿生科学与工程学院博士后
   - name: 王叶虎
     subtitle: 2021级硕士
     note: <br>
@@ -153,5 +160,26 @@ data:
   - name: 李拓航
     subtitle: 2019级博士
     note: nlp<br>西南财经大学
+  - name: 陈甲旺
+    subtitle: 2019级硕士
+    note: 计算机视觉<br>华为
+  - name: 陈甲旺
+    subtitle: 2019级硕士
+    note: 计算机视觉<br>华为
+  - name: 郭佳旭
+    subtitle: 2019级博士
+    note: <br>沈阳航空航天大学
+  - name: 邬杨
+    subtitle: 2016级博士
+    note: 图表证学习<br>吉林大学第二医院
+  - name: 邬杨
+    subtitle: 2016级博士
+    note: 图表证学习<br>吉林大学第二医院
+  - name: 胡洁珺
+    subtitle: 2015级博士
+    note: 博弈论，多智能体系统，物联网，大规模社会系统建模<br>Lancaster University Leipzig
+  - name: 侯树范
+    subtitle: 2013级硕士
+    note: <br>吉林大学
 
 ---
