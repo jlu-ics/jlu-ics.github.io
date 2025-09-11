@@ -46,7 +46,7 @@ data:
   - name: 张程
     subtitle: 2025级
     note: 计算机系统结构
-    picture: /uploads/members/张程.jpeg
+    picture: /uploads/members/张程.jpg
   - name: 马琳
     subtitle: 2023级
     note: 因果发现，因果结构学习
@@ -163,15 +163,9 @@ data:
   - name: 陈甲旺
     subtitle: 2019级硕士
     note: 计算机视觉<br>华为
-  - name: 陈甲旺
-    subtitle: 2019级硕士
-    note: 计算机视觉<br>华为
   - name: 郭佳旭
     subtitle: 2019级博士
     note: <br>沈阳航空航天大学
-  - name: 邬杨
-    subtitle: 2016级博士
-    note: 图表证学习<br>吉林大学第二医院
   - name: 邬杨
     subtitle: 2016级博士
     note: 图表证学习<br>吉林大学第二医院
