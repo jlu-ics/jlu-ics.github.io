@@ -12,16 +12,21 @@ data:
     note: 博士生导师
     picture: /uploads/members/huliang.jpg
     link: /member/huliang
-  - name: 胡俊成
-    subtitle: 副教授
-    note: 博士生导师
-    picture: /uploads/members/hujc.jpg
-    link: https://hujc-jlu.github.io
   - name: 车喜龙
     subtitle: 教授
     note: 博士生导师
     picture: /uploads/members/chexilong.png
-    link: https://ccst.jlu.edu.cn/info/1367/19096.htm
+    link: /member/chexilong
+  - name: 王峰
+    subtitle: 副教授
+    note: 博士生导师
+    picture: /uploads/members/wangfeng.png
+    link: /member/wangfeng
+  - name: 胡俊成
+    subtitle: 副教授
+    note: 博士生导师
+    picture: /uploads/members/hujc.jpg
+    link: /member/hujc
 - section: 杰出毕业生
   sub:
 - section: 博士后
