@@ -1,5 +1,5 @@
 ---
-title: 实验室一项研究成果被FGCS接收
+title: ICS Lab 一项研究成果被FGCS接收
 date: 2025-07-02 10:00
 published: true
 # excerpt: 实验室量子计算方向工作被FGCS（中科院二区）接收，论文题目为“Denoising Diffusion Models with Optimized Quantum Implicit Neural Networks for Image Generation”。

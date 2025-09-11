@@ -1,5 +1,5 @@
 ---
-title: 实验室研究成果被Euro-Par2025接收
+title: ICS Lab 研究成果被Euro-Par2025接收
 date: 2025-07-01 20:00
 published: true
 ---
