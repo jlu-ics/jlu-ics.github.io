@@ -24,24 +24,31 @@
   </div>
   <div class="archives">
     <div class="row flex-wrap">
-      <% } %>
-      <%- partial('archive-post', {post: post, even: i % 2 == 0}) %>
-      <% }) %>
-      <% if (page.posts.length){ %>
+      <div class="col-3" style="width: 100%;">
+        <% } %>
+        <div style="margin: 1rem;">
+          <%- partial('article', {post: post, index: true}) %>
+        </div>
+        <% }) %>
+        <% if (page.posts.length){ %>
+      </div>
     </div>
   </div>
 </section>
 <% } %>
 <% } %>
-<% if (page.total > 1){ %>
-  <% if (!index){ %>
-    <nav id="page-nav">
-      <% var prev_text = "&laquo; " + __('prev');var next_text = __('next') + " &raquo;"%>
-      <%- paginator({
-        prev_text: prev_text,
-        next_text: next_text,
-        escape: false
-      }) %>
-    </nav>
-  <% } %>
+<% if (page.total > 1 && pagination != 2){ %>
+  <nav id="page-nav">
+    <% var prev_text = "&laquo; " + __('prev');var next_text = __('next') + " &raquo;"%>
+    <%- paginator({
+      prev_text: prev_text,
+      next_text: next_text,
+      escape: false
+    }) %>
+    <style>
+      #page-nav .page-number, #page-nav .prev, #page-nav .next {
+        margin: 0.6rem;
+      }
+    </style>
+  </nav>
 <% } %>
