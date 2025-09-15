@@ -50,7 +50,11 @@
             <% pub = sec.sub[j] %>
 
             <div class="publication">
-              <h6><a href="<%= url_for(pub.link) %>"><%= pub.title %></a><% if (pub.source) { %>&nbsp;<a style="border: none;" href="<%= pub.source %>"><sup>[source]</sup></a><% } %></h6>
+              <h6><a <% if (pub.link) {
+                %> href="<%= url_for(pub.link) %>" <%
+              } %> ><%= pub.title %></a><% if (pub.source) {
+                %>&nbsp;<a style="border: none;" href="<%= pub.source %>"><sup>[source]</sup></a><%
+              } %></h6>
               <p><%- markdown(pub.authors) %></p>
               <p><%- markdown(pub.published) %></p>
             </div>
