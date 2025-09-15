@@ -5,7 +5,7 @@ subtitle: ' '
 banner: /uploads/wangxianghao-building.jpg
 
 data:
-- section: 教师
+- section: 教师团队
   sub:
   - name: 胡亮
     subtitle: 教授
@@ -22,15 +22,21 @@ data:
     note: 博士生导师
     picture: /uploads/members/wangfeng.png
     link: /member/wangfeng
+  - name: 李宏图
+    subtitle: 副教授
+    note:
+    picture: /uploads/members/lihongtu.jpg
+    link: /member/lihongtu
+  - name: 迟令
+    subtitle: 副教授
+    note:
+    picture: /uploads/members/chiling.jpg
+    link: /member/chiling
   - name: 胡俊成
     subtitle: 副教授
     note: 博士生导师
     picture: /uploads/members/hujc.jpg
     link: /member/hujc
-- section: 杰出毕业生
-  sub:
-- section: 博士后
-  sub:
   - name: 吕克敌
     subtitle: 助理研究员
     note: 鼎新学者
@@ -41,7 +47,8 @@ data:
     note:
     picture: /uploads/members/liyingji.png
     link: /member/liyingji
-
+- section: 杰出毕业生
+  sub:
 - section: 在读博士生
   sub:
   - name: 裴辰举
@@ -146,39 +153,39 @@ data:
   sub:
   - name: 陈硕
     subtitle: 2022级硕士
-    note: 文件系统<br>中国石油
+    note: 中国石油
   - name: 郝佳旺
     subtitle: 2022级硕士
-    note: 计算机技术<br>单位就业
+    note: 单位就业
   - name: 韩庆奇
     subtitle: 2022级博士
-    note: 机器学习<br>吉林大学仿生科学与工程学院博士后
+    note: 吉林大学仿生科学与工程学院博士后
   - name: 王叶虎
     subtitle: 2021级硕士
-    note: <br>
+    note: 
   - name: 吴刚
     subtitle: 2020级博士
-    note: 物联网数据挖掘<br>武汉网络安全大学
+    note: 武汉网络安全大学
   - name: 孙成宇
     subtitle: 2020级博士
-    note: 计算机系统结构<br>创业
+    note: 创业
   - name: 李拓航
     subtitle: 2019级博士
-    note: nlp<br>西南财经大学
+    note: 西南财经大学
   - name: 陈甲旺
     subtitle: 2019级硕士
-    note: 计算机视觉<br>华为
+    note: 华为
   - name: 郭佳旭
     subtitle: 2019级博士
-    note: <br>沈阳航空航天大学
+    note: 沈阳航空航天大学
   - name: 邬杨
     subtitle: 2016级博士
-    note: 图表证学习<br>吉林大学第二医院
+    note: 吉林大学第二医院
   - name: 胡洁珺
     subtitle: 2015级博士
-    note: 博弈论，多智能体系统，物联网，大规模社会系统建模<br>Lancaster University Leipzig
+    note: Lancaster University Leipzig
   - name: 侯树范
     subtitle: 2013级硕士
-    note: <br>吉林大学
+    note: 吉林大学
 
 ---

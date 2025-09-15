@@ -1,19 +1,9 @@
 ---
-title: 成员简介
-subtitle: ' '
+layout: memberinfo
+data:
+  name: 吕克敌
+  picture: /uploads/members/lvkedi.png
 ---
-
-<style>
-  .article-inner {
-	min-height: 30rem;
-  }
-</style>
-
-<div style="float: left; height: 24rem; width: 18rem; overflow: hidden; margin: 1rem; margin-right: 4rem;">
-  <img style="width: 100%; height: 100%; object-fit: cover;" src="/uploads/members/lvkedi.png">
-</div>
-
-## 吕克敌
 
 职称：鼎新学者、助理研究员
 毕业院校：吉林大学
