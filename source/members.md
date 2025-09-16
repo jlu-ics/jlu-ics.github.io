@@ -59,6 +59,10 @@ data:
     subtitle: 2025级
     note: 计算机系统结构
     picture: /uploads/members/张程.jpg
+  - name: 于济铭
+    subtitle: 2024级
+    note: 具身智能 强化学习
+    picture: /uploads/members/于济铭.jpg
   - name: 马琳
     subtitle: 2023级
     note: 因果发现，因果结构学习
@@ -160,6 +164,9 @@ data:
   - name: 韩庆奇
     subtitle: 2022级博士
     note: 吉林大学仿生科学与工程学院博士后
+  - name: 刘训
+    subtitle: 2022级硕士
+    note: 比亚迪
   - name: 王叶虎
     subtitle: 2021级硕士
     note: 
