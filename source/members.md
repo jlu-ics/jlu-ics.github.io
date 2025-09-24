@@ -43,33 +43,33 @@ data:
     picture: /uploads/members/lvkedi.png
     link: /member/lvkedi
   - name: 李莹姬
-    subtitle:
-    note:
+    subtitle: 助理研究员
+    note: 鼎新学者
     picture: /uploads/members/liyingji.png
     link: /member/liyingji
-- section: 杰出毕业生
-  sub:
+# - section: 杰出毕业生
+#   sub:
 - section: 在读博士生
   sub:
   - name: 裴辰举
     subtitle: 2025级
-    note: 可信执行环境、serverless
+    note: 可信计算
     picture: /uploads/members/裴辰举.jpeg
   - name: 张程
     subtitle: 2025级
-    note: 计算机系统结构
+    note: 存储引擎
     picture: /uploads/members/张程.jpg
   - name: 于济铭
     subtitle: 2024级
-    note: 具身智能 强化学习
+    note: 具身智能
     picture: /uploads/members/于济铭.jpg
   - name: 马琳
     subtitle: 2023级
-    note: 因果发现，因果结构学习
+    note: 因果学习
     picture: /uploads/members/马琳.jpg
   - name: 张嘉乐
     subtitle: 2022级
-    note: 量子数据编码与量子机器学习
+    note: 量子机器学习
     picture: /uploads/members/张嘉乐.png
   - name: 王子正
     subtitle: 2021级
@@ -77,7 +77,7 @@ data:
     picture: /uploads/akkarin.png
   - name: 王国毓
     subtitle: 2021级
-    note: 
+    note: 存储引擎
     picture: /uploads/members/王国毓.jpeg
   - name: 李帅
     subtitle: 2021级
@@ -91,7 +91,7 @@ data:
     picture: /uploads/members/魏永超.jpg
   - name: 刘博文
     subtitle: 2025级
-    note: 计算机体系结构
+    note: 存储引擎
     picture: /uploads/members/刘博文.jpg
   - name: 夏雨豪
     subtitle: 2025级
@@ -99,11 +99,11 @@ data:
     picture: /uploads/members/夏雨豪.jpg
   - name: 林先睿
     subtitle: 2025级
-    note: 网络空间安全
+    note: 网络安全
     picture: /uploads/members/林先睿.jpg
   - name: 杨明美
     subtitle: 2025级
-    note: 
+    note: 联邦图后门攻防
     picture: /uploads/akkarin.png
   - name: 潘翠红
     subtitle: 2025级
@@ -123,7 +123,7 @@ data:
     picture: /uploads/members/王毅博.jpg
   - name: 华根达
     subtitle: 2025级
-    note: 体系结构
+    note: 存储引擎
     picture: /uploads/members/华根达.jpeg
   - name: 赵雯理
     subtitle: 2025级
@@ -135,7 +135,7 @@ data:
     picture: /uploads/akkarin.png
   - name: 樊宇哲
     subtitle: 2024级
-    note: 量子计算
+    note: 量子机器学习
     picture: /uploads/members/樊宇哲.jpg
   - name: 周璨
     subtitle: 2024级
@@ -147,7 +147,7 @@ data:
     picture: /uploads/akkarin.png
   - name: 魏皓阳
     subtitle: 2023级
-    note: 持久内存
+    note: 文件系统
     picture: /uploads/akkarin.png
   - name: 马海睿
     subtitle: 2023级
