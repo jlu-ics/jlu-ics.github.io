@@ -2,6 +2,7 @@
 menu:
   首页: /
   成员: /members
+  研究方向: /domains
   学术成果: /publications
   新闻: /archives
   关于: /about
@@ -19,9 +20,11 @@ beian:
   url: https://beian.miit.gov.cn/
 
 # Miscellaneous
-favicon: /uploads/jlu.png
+favicon: /uploads/logo/logo-128.png
 # webclip: /images/webclip
 brand:   /uploads/logo/wider.png
+brand2: /uploads/logo/nscenter.png
+brand_footer: /uploads/logo/logo-big.png
 
 # Jumbotron video & Hero image
 ## Jumbotron video
