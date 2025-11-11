@@ -273,7 +273,7 @@ data:
     note2: 
   - name: 张笑鲁
     subtitle: 2011级博士
-    note: University of Texas at San Antonio
+    note: UT San Antonio
     note2:
   - name: 赵佳
     subtitle: 2008级博士
