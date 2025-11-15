@@ -155,21 +155,37 @@ data:
     picture: /uploads/members/马海睿.jpeg
 - section: 已毕业学生
   sub:
+  - name: 韩庆奇
+    subtitle: 2022级博士
+    note: 吉林大学仿生科学与工程学院博士后
   - name: 陈硕
     subtitle: 2022级硕士
     note: 中国石油
   - name: 郝佳旺
     subtitle: 2022级硕士
     note: 国企
-  - name: 韩庆奇
-    subtitle: 2022级博士
-    note: 吉林大学仿生科学与工程学院博士后
   - name: 刘训
     subtitle: 2022级硕士
     note: 比亚迪
+  - name: 胡喻晓
+    subtitle: 2022级硕士
+    note: 卡斯柯信号
+    note2: 软件开发工程师
+  - name: 王优
+    subtitle: 2022级硕士
+    note: 通号低空智能科技
+    note2: 
   - name: 王叶虎
     subtitle: 2021级硕士
     note: 
+  - name: 薛茗竹
+    subtitle: 2021级硕士
+    note: 长春职业技术学校
+    note2: 助理讲师
+  - name: 马红岩
+    subtitle: 2021级硕士
+    note: 
+    note2: 
   - name: 吴刚
     subtitle: 2020级博士
     note: 武汉网络安全大学
@@ -177,76 +193,37 @@ data:
   - name: 孙成宇
     subtitle: 2020级博士
     note: 创业
-  - name: 李拓航
-    subtitle: 2019级博士
-    note: 西南财经大学
-  - name: 陈甲旺
-    subtitle: 2019级硕士
-    note: 华为
-  - name: 郭佳旭
-    subtitle: 2019级博士
-    note: 沈阳航空航天大学
-  - name: 邬杨
-    subtitle: 2016级博士
-    note: 吉林大学第二医院
-  - name: 胡洁珺
-    subtitle: 2015级博士
-    note: Lancaster University Leipzig
-  - name: 侯树范
-    subtitle: 2013级硕士
-    note: 吉林大学
-  - name: 谢珍真
-    subtitle: 2014级博士
-    note: 山东大学
-    note2: 副研究员
   - name: 邢永恒
     subtitle: 2020级博士
     note: 大连海事大学
     note2: 讲师
-  - name: 胡喻晓
-    subtitle: 2022级硕士
-    note: 卡斯柯信号
-    note2: 软件开发工程师
-  - name: 薛茗竹
-    subtitle: 2021级硕士
-    note: 长春职业技术学校
-    note2: 助理讲师
-  - name: 王优
-    subtitle: 2022级硕士
-    note: 通号低空智能科技
-    note2: 
   - name: 李永豪
     subtitle: 2020级博士
     note: 西南财经大学
     note2: 讲师
-  - name: 马红岩
-    subtitle: 2021级硕士
-    note: 
-    note2: 
-  - name: 匡哲君
-    subtitle: 2011级博士
-    note: 长春大学
-    note2: 副院长（副教授）
-  - name: 刘哲理
-    subtitle: 2005级博士
-    note: 南开大学
-    note2: 院长（教授）
-  - name: 赵阔
-    subtitle: 2004级博士
-    note: 暨南大学
-    note2: 教授
-  - name: 胡德斌
-    subtitle: 2004级博士
-    note: 上海银行
-    note2: 副行长（高级工程师）
+  - name: 李拓航
+    subtitle: 2019级博士
+    note: 西南财经大学
+  - name: 郭佳旭
+    subtitle: 2019级博士
+    note: 沈阳航空航天大学
+  - name: 陈甲旺
+    subtitle: 2019级硕士
+    note: 华为
   - name: 王煜
     subtitle: 2018级博士
     note: 上海交通大学
     note2: 
+  - name: 邬杨
+    subtitle: 2016级博士
+    note: 吉林大学第二医院
   - name: 高万夫
     subtitle: 2016级博士
     note: 吉林大学
     note2: 副教授
+  - name: 胡洁珺
+    subtitle: 2015级博士
+    note: Lancaster University Leipzig
   - name: 李腾飞
     subtitle: 2015级博士
     note: 东北师范大学
@@ -255,6 +232,10 @@ data:
     subtitle: 2015级博士
     note: 东北师范大学
     note2: 
+  - name: 谢珍真
+    subtitle: 2014级博士
+    note: 山东大学
+    note2: 副研究员
   - name: 姜婧妍
     subtitle: 2014级博士
     note: 深圳技术大学
@@ -267,10 +248,17 @@ data:
     subtitle: 2013级博士
     note: 中国信通院
     note2: 
+  - name: 侯树范
+    subtitle: 2013级硕士
+    note: 吉林大学
   - name: 解男男
     subtitle: 2012级博士
     note: 长春理工大学
     note2: 
+  - name: 匡哲君
+    subtitle: 2011级博士
+    note: 长春大学
+    note2: 副院长（副教授）
   - name: 张笑鲁
     subtitle: 2011级博士
     note: UT San Antonio
@@ -283,11 +271,21 @@ data:
     subtitle: 2008级博士
     note: 新疆大学
     note2: 教授
+  - name: 刘哲理
+    subtitle: 2005级博士
+    note: 南开大学
+    note2: 院长（教授）
   - name: 郭东
     subtitle: 2005级博士
     note: 吉林大学
     note2: 
-
-
+  - name: 赵阔
+    subtitle: 2004级博士
+    note: 暨南大学
+    note2: 教授
+  - name: 胡德斌
+    subtitle: 2004级博士
+    note: 上海银行
+    note2: 副行长（高级工程师）
 
 ---
