@@ -7,6 +7,10 @@ banner: /uploads/wangxianghao-building.jpg
 data:
 - section: 2025
   sub:
+  - title: "Enhancing Fairness in Decision-Making of Natural Language Understanding Systems: An Intersectional Bias Debiasing Model via Information Theory-based Disentanglement"
+    date: 12/2025
+    authors: Yingji Li, Juncheng Hu, Rui Song, Liang Hu
+    published: Expert Systems with Applications (**ESWA**)
   - title: "LLM4TAP: LLM-Enhanced TAP Rule Recommendation"
     date: 11/2025
     authors: Gang Wu, Liang Hu, Yuxiao Hu, Xingbo Xiong, Feng Wang
