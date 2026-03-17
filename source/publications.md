@@ -12,6 +12,7 @@ data:
     authors: Guoyu Wang, Juncheng Hu, Chenju Pei, Tengfei Li, Kedi Lyu, Xilong Che
     published: Journal of Systems Architecture (**JSA**)
   - title: 面向银发经济产业的多模态数据处理关键技术研究
+    authors: "JLU-ICS"
     date: "01/2026 - 12/2028"
     published: 吉林省重点研发计划（20260203033SF），80万元
 - section: 2025
